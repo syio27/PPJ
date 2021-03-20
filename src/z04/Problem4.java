@@ -91,7 +91,7 @@ public class Problem4 {
         String style = result.substring(result.length() - 4, result.length() - 2);
         String weight = result.substring(result.length() - 5, result.length() - 4);
         String size = result.substring(result.length() - 8, result.length() - 5);
-        
+
         if(size(size).equals("undefined (illegal)")){
             System.out.println("illegal size");
         }
