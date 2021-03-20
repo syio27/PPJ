@@ -74,6 +74,7 @@ public class Problem4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter value: ");
         int x = sc.nextInt();
 
         // decimal to 8 bit binary
@@ -86,7 +87,6 @@ public class Problem4 {
             x = x / 2;
 
         }
-
         String family = result.substring(result.length() - 2);
         String style = result.substring(result.length() - 4, result.length() - 2);
         String weight = result.substring(result.length() - 5, result.length() - 4);
